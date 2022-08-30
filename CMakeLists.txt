@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.12)
-
+cmake_minimum_required(VERSION 3.13)
+set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
 project(usd)
 
 if (NOT CMAKE_SIZEOF_VOID_P EQUAL 8)
