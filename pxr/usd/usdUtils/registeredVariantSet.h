@@ -75,7 +75,7 @@ public:
     };
 
     /// Returns the export policy from the string.
-    static bool GetSelectionExportPolicyFromString(
+    USDUTILS_API static bool GetSelectionExportPolicyFromString(
         const std::string& selectionExportPolicyStr,
         SelectionExportPolicy* selectionExportPolicy);
 

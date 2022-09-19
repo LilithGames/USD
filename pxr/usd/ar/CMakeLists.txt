@@ -34,6 +34,7 @@ pxr_library(ar
         writableAsset
 
     PUBLIC_HEADERS
+        resolverContext_v2.h
         api.h
         ar.h
         defineResolverContext.h
